@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		802EC5791F7F6A1E00A02EBC /* TTImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 802EC5781F7F6A1E00A02EBC /* TTImagePickerController.m */; };
 		8040EEF81F6A21250037B915 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8040EEF71F6A21250037B915 /* main.m */; };
 		8040EEFB1F6A21250037B915 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8040EEFA1F6A21250037B915 /* AppDelegate.m */; };
 		8040EEFE1F6A21250037B915 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8040EEFD1F6A21250037B915 /* ViewController.m */; };
 		8040EF011F6A21250037B915 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8040EEFF1F6A21250037B915 /* Main.storyboard */; };
 		8040EF031F6A21250037B915 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8040EF021F6A21250037B915 /* Assets.xcassets */; };
 		8040EF061F6A21250037B915 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8040EF041F6A21250037B915 /* LaunchScreen.storyboard */; };
-		8040EF0F1F6A28B10037B915 /* TTImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8040EF0E1F6A28B10037B915 /* TTImagePickerController.m */; };
 		8040EF141F6BADA00037B915 /* TTRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8040EF131F6BADA00037B915 /* TTRecordViewController.m */; };
 		8040EF171F6E524A0037B915 /* TTSimplePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8040EF161F6E524A0037B915 /* TTSimplePlayViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		802EC5771F7F6A1E00A02EBC /* TTImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTImagePickerController.h; sourceTree = "<group>"; };
+		802EC5781F7F6A1E00A02EBC /* TTImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTImagePickerController.m; sourceTree = "<group>"; };
 		8040EEF31F6A21250037B915 /* VideoPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8040EEF71F6A21250037B915 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8040EEF91F6A21250037B915 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,8 +31,6 @@
 		8040EF021F6A21250037B915 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8040EF051F6A21250037B915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8040EF071F6A21250037B915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8040EF0D1F6A28B10037B915 /* TTImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTImagePickerController.h; path = VideoPlay/TTImagePickerController.h; sourceTree = SOURCE_ROOT; };
-		8040EF0E1F6A28B10037B915 /* TTImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTImagePickerController.m; path = VideoPlay/TTImagePickerController.m; sourceTree = SOURCE_ROOT; };
 		8040EF121F6BADA00037B915 /* TTRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTRecordViewController.h; sourceTree = "<group>"; };
 		8040EF131F6BADA00037B915 /* TTRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTRecordViewController.m; sourceTree = "<group>"; };
 		8040EF151F6E524A0037B915 /* TTSimplePlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSimplePlayViewController.h; sourceTree = "<group>"; };
@@ -48,6 +48,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		802EC5761F7F6A1E00A02EBC /* TTImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				802EC5771F7F6A1E00A02EBC /* TTImagePickerController.h */,
+				802EC5781F7F6A1E00A02EBC /* TTImagePickerController.m */,
+			);
+			path = TTImagePickerController;
+			sourceTree = "<group>";
+		};
 		8040EEEA1F6A21250037B915 = {
 			isa = PBXGroup;
 			children = (
@@ -68,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				8040EF101F6BAD5D0037B915 /* TTAVFoundation */,
-				8040EF111F6BAD5D0037B915 /* TTImagePickerController */,
 				8040EEFF1F6A21250037B915 /* Main.storyboard */,
 				8040EEF61F6A21250037B915 /* Supporting Files */,
 			);
@@ -93,21 +101,13 @@
 		8040EF101F6BAD5D0037B915 /* TTAVFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				802EC5761F7F6A1E00A02EBC /* TTImagePickerController */,
 				8040EF121F6BADA00037B915 /* TTRecordViewController.h */,
 				8040EF131F6BADA00037B915 /* TTRecordViewController.m */,
 				8040EF151F6E524A0037B915 /* TTSimplePlayViewController.h */,
 				8040EF161F6E524A0037B915 /* TTSimplePlayViewController.m */,
 			);
 			path = TTAVFoundation;
-			sourceTree = "<group>";
-		};
-		8040EF111F6BAD5D0037B915 /* TTImagePickerController */ = {
-			isa = PBXGroup;
-			children = (
-				8040EF0D1F6A28B10037B915 /* TTImagePickerController.h */,
-				8040EF0E1F6A28B10037B915 /* TTImagePickerController.m */,
-			);
-			path = TTImagePickerController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,8 +184,8 @@
 			files = (
 				8040EF171F6E524A0037B915 /* TTSimplePlayViewController.m in Sources */,
 				8040EEFE1F6A21250037B915 /* ViewController.m in Sources */,
-				8040EF0F1F6A28B10037B915 /* TTImagePickerController.m in Sources */,
 				8040EF141F6BADA00037B915 /* TTRecordViewController.m in Sources */,
+				802EC5791F7F6A1E00A02EBC /* TTImagePickerController.m in Sources */,
 				8040EEFB1F6A21250037B915 /* AppDelegate.m in Sources */,
 				8040EEF81F6A21250037B915 /* main.m in Sources */,
 			);
