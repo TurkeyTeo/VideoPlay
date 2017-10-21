@@ -2,7 +2,7 @@
 //  TTRecordViewController.m
 //  VideoPlay
 //
-//  Created by Thinkive on 2017/9/15.
+//  Created by Teo on 2017/9/15.
 //  Copyright © 2017年 Teo. All rights reserved.
 //
 
